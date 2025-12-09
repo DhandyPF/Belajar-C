@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    char huruf = 'a';
+    printf("Alamat Variabel Huruf : %p\n", &huruf);
+    printf("Nilai Variabel Huruf : %c\n", huruf);
+}
